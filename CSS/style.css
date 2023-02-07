@@ -1,0 +1,66 @@
+body{
+  margin: 10px;
+}
+em {
+    color: green;
+    font-style: normal;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  video {
+    width: 300px;
+  }
+  ul {
+    list-style: square;
+  }
+  table,
+  td,
+  th {
+    border: 2px solid green;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+  tfoot {
+    text-align: left;
+  }
+  .about {
+    background-color: green;
+    width: 350px;
+  }
+  .firstletter {
+    background-color: green;
+  }
+  a[href*="google"]{
+    color: red;
+  }
+  #produce p{
+    color: red;
+  }
+  article :first-child{
+    color: green;
+    font-style: italic;
+    font-size: 120%;
+  }
+  a:visited {color: blue;}
+  a:link{
+    color: red;
+  }
+  a:hover, a:focus{
+    color: yellow;
+  }
+  p::first-letter{
+    font-size: 130%;
+    font-weight: bold;
+  }
+  .box{
+    width:  200px;
+    height: 200px;
+    background: radial-gradient(circle, blue, red);
+    border: 10px dotted aqua;
+    border-width: 10px 20px;
+    border-radius: 100%;
+  
+  }
